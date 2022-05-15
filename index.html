@@ -5,13 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Scss-bem-starter</title>
+    <title>Education</title>
 </head>
 <body>
-    <!--HEAD-->
-    <header></header>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__container">
+            <a class="header__logo" href="#">
+                <img class="header__logo-img" src="./img/Education-logo.svg" alt="education-logo" width="118" height="31">
+            </a>
+            
+            <nav class="navbar">
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a class="navbar__link navbar__link-home" href="#">Home
+                            <select class="navbar__select" name="fanlar nomi" id="fan"></select>
+                        </a>
+                    </li>
+                    
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#">Courses
+                            <select class="navbar__select" name="" id=""></select>
+                        </a>
+                    </li>
+                    
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#">Page
+                            <select class="navbar__select" name="" id=""></select>
+                        </a>
+                    </li>
+                    
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#">Blog
+                            <select class="navbar__select" name="" id=""></select>
+                        </a>
+                    </li>
+                    
+                    <li class="navbar__item">
+                        <a class="navbar__link navbar__link-contact" href="#">Contact </a>
+                    </li>
+                    
+                    <li class="navbar__item">
+                        <a class="navbar__link navbar__link-sign" href="#">Singin</a>
+                    </li>
+                    
+                    <button class="button header__button">Sing Up</button>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
     <!--MAIN-->
-    <main></main>
+    <main class="main">
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__box">
+                    <h1 class="hero__heading">Self-Paced Learning Courses Online</h1>
+                    <p class="hero__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, vestibulum euismod nullam elementum. Urna, posuere nisi sit gravida massa. Ultrices bibendum sagittis pellentesque vitae sit.</p>
+                    
+                    <button class="button hero__button">Start a coures</button>
+                </div>
+               
+            </div>
+        </section>
+    </main>
     <!--FOOTER-->
     <footer></footer>
 </body>
