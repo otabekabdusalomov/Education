@@ -1,0 +1,44 @@
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 11px 35px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    &__container{
+        max-width: 1138px;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+    }
+    &__item + &__item {
+        margin-left: 155px;
+    }
+    &__item{
+       
+        display: flex;
+        align-items: center;
+    }
+    &__box{
+        margin-left: 24px;
+    }
+    &__desc{
+        padding-bottom: 8px;
+        margin: 0;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 47px;    
+        color: #222222;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    &__link{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 155%;  
+        color: #086CF9;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        text-decoration: none;
+    }
+}
