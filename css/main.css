@@ -603,4 +603,66 @@ img {
   font-size: 48px;
   line-height: 62px;
   color: #222222;
+}
+
+.information {
+  padding-bottom: 128px;
+}
+.information__box {
+  max-width: 460px;
+  margin-left: 380px;
+}
+.information__heading {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  color: #222222;
+  margin-left: 72px;
+  padding-bottom: 12px;
+}
+.information__desc {
+  width: 423px;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  line-height: 155%;
+  text-align: center;
+  color: #555555;
+  padding-bottom: 48px;
+}
+.information__list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.information__item + .information__item {
+  margin-left: 53px;
+}
+.information__item {
+  max-width: 248px;
+  vertical-align: middle;
+}
+.information__item-heading {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #222222;
+}
+.information__item-desc {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 155%;
+  text-align: center;
+  color: #555555;
+  padding-bottom: 16px;
+}
+.information__img {
+  margin-left: 44px;
+  padding-bottom: 24px;
 }/*# sourceMappingURL=main.css.map */
